@@ -12,10 +12,16 @@
     "lint": "eslint . --ext .ts,.tsx --ignore-path .gitignore"
   },
   "devDependencies": {
+    "commitizen": "^4.3.1",
     "eslint": "^8.49.0",
     "eslint-config-prettier": "^9.0.0",
     "prettier": "^3.1.1",
     "prettier-plugin-tailwindcss": "^0.5.13",
     "typescript": "^5.2.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
   }
 }
