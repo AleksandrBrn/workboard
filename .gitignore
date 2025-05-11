@@ -1,0 +1,57 @@
+# === Node dependencies ===
+node_modules/
+npm-debug.log*
+package-lock.json
+
+# === Environment variables ===
+.env
+.env.*.local
+
+# === Build artifacts ===
+dist/
+build/
+*.tsbuildinfo
+
+# === Logs ===
+logs/
+*.log
+yarn-debug.log*
+yarn-error.log*
+
+# === OS-specific ===
+.DS_Store
+Thumbs.db
+
+# === Editor config ===
+.vscode/
+.idea/
+*.swp
+
+# === Frontend ===
+frontend/node_modules
+frontend/dist
+
+# === Frontend: Vite cache ===
+frontend/.vite/
+frontend/.cache/
+
+# === Backend ===
+backend/node_modules
+backend/dist
+backend/build
+
+# === Backend: Prisma SQLite ===
+backend/prisma/dev.db
+backend/prisma/dev.db-journal
+
+# === Backend: Compiled output ===
+backend/dist/
+
+# === Coverage ===
+coverage/
+*.lcov
+
+# === Misc ===
+*.local
+*.bak
+*.old
