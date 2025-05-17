@@ -6,7 +6,6 @@
   "scripts": {
     "start": "nodemon --exec node --loader ts-node/esm .filename.ts",
     "dev": "nodemon src/server/index.ts",
-    "cli": "tsx scripts/generate-mentorship-report.ts",
     "generate": "tsx scripts/generate-mentorship-report.ts",
     "format": "prettier --write .",
     "lint": "eslint . --ext .ts"
